@@ -1,0 +1,37 @@
+.navbar{
+    height: 50px;
+    width: 100vw;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    color: white;
+    background: orange;
+}
+
+.menu-items{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mobile-menu{
+    visibility: visible;
+}
+
+#desktop-menu{
+    visibility: hidden;
+}
+
+@media(min-width: 768px){
+    #mobile-menu{
+        visibility: hidden;
+    }
+
+    #desktop-menu{
+        visibility: visible;
+    }
+}
